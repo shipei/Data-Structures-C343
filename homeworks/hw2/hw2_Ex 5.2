@@ -1,0 +1,5 @@
+Exercise 5.2
+proof: let n be the number of degree nodes.
+	Base Cases: The non-empty tree with 0 degree has 1 leaf, a full binary tree with one degree has 2 leaves. Thus, the base cases for n=0 and n=1 conform the theorem.
+	Induction Hypothesis: Assume that any binary tree T containing n-1 degrees has n leaf nodes.
+	Induction Step: Given tree T with n degrees, select an leaf node x and change it to a degree node by adding two leaf nodes. So now T' has n (n-1+1) degrees, and the number of leaf nodes now is  n-1+2, which is n+1. Thus, tree T has n degree nodes and n+1 leaf nodes.
